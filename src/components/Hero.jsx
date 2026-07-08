@@ -105,7 +105,7 @@ const Hero = () => {
             </div>
             <div className="notif-text">
               <strong>Booking Confirmed</strong>
-              <span>Sarah at 2:00 PM</span>
+              <span>Rose at 2:00 PM</span>
             </div>
           </div>
 

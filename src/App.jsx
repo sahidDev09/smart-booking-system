@@ -1,6 +1,10 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import BookingCategories from './components/BookingCategories';
+import FeaturedServices from './components/FeaturedServices';
+import Feedback from './components/Feedback';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -14,6 +18,10 @@ function App() {
       {/* Components */}
       <Navbar />
       <Hero />
+      <BookingCategories />
+      <FeaturedServices />
+      <Feedback />
+      <Footer />
     </div>
   );
 }
