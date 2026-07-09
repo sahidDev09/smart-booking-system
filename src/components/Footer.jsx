@@ -58,11 +58,11 @@ const Footer = () => {
             <ul className="contact-list">
               <li>
                 <MapPin size={18} className="contact-icon" />
-                <span>123 Smart Ave, Tech District, NY 10001</span>
+                <span>Sylhet, bangladesh</span>
               </li>
               <li>
                 <Phone size={18} className="contact-icon" />
-                <span>+1 (555) 123-4567</span>
+                <span>01700000000</span>
               </li>
               <li>
                 <Mail size={18} className="contact-icon" />

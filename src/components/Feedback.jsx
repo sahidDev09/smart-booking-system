@@ -31,7 +31,7 @@ const testimonials = [
 
 const Feedback = () => {
   return (
-    <section className="feedback-section">
+    <section className="feedback-section" id="reviews">
       <div className="feedback-container">
         <div className="feedback-header">
           <h2 className="feedback-title">What Our Users Say</h2>

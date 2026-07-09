@@ -5,81 +5,81 @@ import './FeaturedServices.css';
 const services = [
   {
     id: 1,
-    title: 'Luxury Ocean View Suite',
-    category: 'Hotel',
+    title: 'Meetup Table',
+    category: 'Restaurant',
     rating: 4.9,
     reviews: 128,
     price: '৳২৯৯',
-    unit: '/night',
-    location: 'Maldives',
-    image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80',
+    unit: '/table',
+    location: 'Sylhet',
+    image: 'https://i.postimg.cc/TPzb5Cyt/meetup.jpg',
     color: 'blue'
   },
   {
     id: 2,
-    title: 'The Grand Atrium Restaurant',
-    category: 'Restaurant',
+    title: 'Grand Sylhet Meeting Room',
+    category: 'Business',
     rating: 4.8,
     reviews: 342,
     price: '৳৮৫',
-    unit: '/person',
-    location: 'New York, USA',
-    image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80',
+    unit: '/hour',
+    location: 'Sylhet',
+    image: 'https://i.postimg.cc/VNxt0DSB/grandsylhet.jpg',
     color: 'orange'
   },
   {
     id: 3,
-    title: 'General Health Checkup',
-    category: 'Doctor',
+    title: 'Movie Ticket',
+    category: 'Entertainment',
     rating: 4.9,
     reviews: 89,
     price: '৳১৫০',
-    unit: '/visit',
-    location: 'City Hospital',
-    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=80',
+    unit: '/ticket',
+    location: 'Grand Sylhet Cineplex',
+    image: 'https://i.postimg.cc/xdJHdWdP/movie.jpg',
     color: 'green'
   },
   {
     id: 4,
-    title: 'Bali Wellness Retreat',
-    category: 'Resort',
+    title: 'Noorjahan Hotel',
+    category: 'Hotel',
     rating: 5.0,
     reviews: 210,
     price: '৳৮৯৯',
-    unit: '/package',
-    location: 'Ubud, Bali',
-    image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80',
+    unit: '/night',
+    location: 'Sylhet',
+    image: 'https://i.postimg.cc/hGzxGHG5/noorjahan.avif',
     color: 'yellow'
   },
   {
     id: 5,
-    title: 'Roundtrip to Paris',
-    category: 'Flight',
+    title: 'Pansi Restaurant Table',
+    category: 'Restaurant',
     rating: 4.7,
     reviews: 512,
     price: '৳৪৫০',
-    unit: '/ticket',
-    location: 'JFK to CDG',
-    image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80',
+    unit: '/table',
+    location: 'Sylhet',
+    image: 'https://i.postimg.cc/zfshH0Lj/panshi.jpg',
     color: 'purple'
   },
   {
     id: 6,
-    title: 'Coldplay Live Concert',
-    category: 'Events',
+    title: 'Grand Sultan Pool',
+    category: 'Resort',
     rating: 4.9,
     reviews: 1024,
     price: '৳১২০',
-    unit: '/ticket',
-    location: 'Wembley Stadium',
-    image: 'https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=800&q=80',
+    unit: '/person',
+    location: 'Sreemangal',
+    image: 'https://i.postimg.cc/0yHDP89w/grandsultan.jpg',
     color: 'pink'
   }
 ];
 
 const FeaturedServices = () => {
   return (
-    <section className="services-section">
+    <section className="services-section" id="services">
       <div className="services-container">
         <div className="services-header">
           <div>
